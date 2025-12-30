@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "question": "Yüksek Lisans ve Doktora programlarında ders geçme notu nedir ve DC notu alan bir öğrenci başarılı sayılır mı?",
+    "ground_truth": "Yüksek lisansta geçer not en az CC, Doktorada en az CB'dir. Yüksek lisansta GNO 2.50 ise CC ile geçilir. Doktorada GNO 3.00 ise CB ile geçilir. DC notu başarısız sayılır."
+  },
+  {
+    "id": 2,
+    "question": "Devamsızlıktan kalan (NA/DZ alan) bir öğrenci bütünleme sınavına girebilir mi?",
+    "ground_truth": "Hayır, giremez. DZ (Devamsız) notu alan öğrenci yarıyıl/yılsonu ve bütünleme sınavlarına katılamaz."
+  },
+  {
+    "id": 3,
+    "question": "Mazeret sınavına girmeyen bir öğrenciye tekrar sınav hakkı verilir mi?",
+    "ground_truth": "Hayır, mazeret sınavının mazereti olmaz. Mazeret sınavına girmeyen öğrenci o sınav hakkını kaybetmiş sayılır."
+  },
+  {
+    "id": 4,
+    "question": "Doktora yeterlik sınavında başarısız olan öğrencinin durumu ne olur?",
+    "ground_truth": "Başarısız olduğu bölümden bir sonraki yarıyılda tekrar sınava alınır. Yine başarısız olursa ilişiği kesilir."
+  },
+  {
+    "id": 5,
+    "question": "Tezli yüksek lisans öğrencisi tez önerisini en geç ne zaman vermelidir?",
+    "ground_truth": "En geç ikinci yarıyılın sonuna kadar vermelidir. Ders dönemi uzarsa en geç dördüncü yarıyıl sonuna kadar verilmelidir."
+  },
+  {
+    "id": 6,
+    "question": "Bir dersten FF alarak kalan öğrenci, o dersi ne zaman tekrar etmelidir?",
+    "ground_truth": "Öğrenci FF, FG, UB veya DZ aldığı dersi, dersin verildiği ilk yarıyılda/yılda tekrar almak zorundadır."
+  },
+  {
+    "id": 7,
+    "question": "Lisans öğrencisi üst yarıyıldan ders alabilmek için hangi şartları sağlamalıdır?",
+    "ground_truth": "GNO'su 3.00 veya üzerinde olmalı ve devamsız/başarısız dersi olmamalıdır. Toplam 45 AKTS'yi aşamaz."
+  },
+  {
+    "id": 8,
+    "question": "Doktora tez izleme komitesi (TİK) ne sıklıkla toplanır?",
+    "ground_truth": "Ocak-Haziran ve Temmuz-Aralık ayları arasında birer kere olmak üzere yılda iki kez toplanır."
+  },
+  {
+    "id": 9,
+    "question": "Yüksek lisansta azami süre içinde tezini tamamlayamayan öğrencinin akıbeti nedir?",
+    "ground_truth": "Azami süreler (6 yarıyıl) sonunda tez çalışmasında başarısız olan veya tez savunmasına girmeyen öğrencinin üniversite ile ilişiği kesilir."
+  },
+  {
+    "id": 10,
+    "question": "Kayıt dondurmak isteyen bir öğrenci bunu ne zaman talep etmelidir?",
+    "ground_truth": "Her yarıyıl eğitim-öğretimin başladığı tarihten itibaren dört hafta içinde yapılmalıdır."
+  },
+  {
+    "id": 11,
+    "question": "Sınav notuna itiraz süresi kaç gündür ve nereye yapılır?",
+    "ground_truth": "Sınav sonuçlarının ilanından itibaren en geç beş iş günü içerisinde ilgili birime yazılı olarak yapılır."
+  },
+  {
+    "id": 12,
+    "question": "Sanatta yeterlik programına başvuruda yabancı dil puan şartı nedir?",
+    "ground_truth": "YDS veya YÖKDİL'den en az 55 puan veya eşdeğeri bir puan alınması gerekir."
+  },
+  {
+    "id": 13,
+    "question": "Bilimsel hazırlık programında geçirilen süre normal öğrenim süresinden sayılır mı?",
+    "ground_truth": "Hayır, bilimsel hazırlıkta geçen süre (en çok iki yarıyıl) yüksek lisans veya doktora süresine dâhil edilmez."
+  },
+  {
+    "id": 14,
+    "question": "Tezsiz yüksek lisans programından tezli programa geçiş yapılabilir mi?",
+    "ground_truth": "Evet, tezli programın asgari şartlarını (ALES, Dil vb.) yerine getirmek kaydıyla geçiş yapılabilir."
+  },
+  {
+    "id": 15,
+    "question": "Onur öğrencisi kime denir?",
+    "ground_truth": "Normal öğrenim süresinde, başarısız dersi olmayan ve dönem not ortalaması 3.00-3.49 arasında olan öğrencidir."
+  },
+  {
+    "id": 16,
+    "question": "Teorik derslerde ve uygulamalı derslerde devam zorunluluğu yüzde kaçtır?",
+    "ground_truth": "Teorik derslere en az %70, uygulamalara en az %80 oranında devam zorunluluğu vardır."
+  },
+  {
+    "id": 17,
+    "question": "Bir dersin ham başarı notu hesaplanırken dönem içi ve yılsonu sınavının etkisi nedir?",
+    "ground_truth": "Örgün öğretimde dönem içi notunun %40'ı, yarıyıl/yılsonu sınavının %60'ı alınır."
+  },
+  {
+    "id": 18,
+    "question": "Mezun olabilmek için Genel Not Ortalamasının (GNO) en az kaç olması gerekir?",
+    "ground_truth": "Genel Not Ortalaması (GNO) en az 2.00 olmalıdır."
+  },
+  {
+    "id": 19,
+    "question": "Sınav sonuçlarında maddi hata olduğunu düşünen öğrenci kaç gün içinde itiraz etmelidir?",
+    "ground_truth": "Sınav sonuçlarının ilanından itibaren en geç beş iş günü içerisinde başvurulmalıdır."
+  },
+  {
+    "id": 20,
+    "question": "Tek ders sınavına kimler girebilir?",
+    "ground_truth": "Mezun olmak için sadece bir dersten başarısız olan ve diğer koşulları sağlayan öğrencilere sınav hakkı verilir."
+  },
+  {
+    "id": 21,
+    "question": "Bir yarıyılda öğrencinin alabileceği normal ders yükü kaç AKTS'dir?",
+    "ground_truth": "Her yarıyıl için 30 AKTS kredisidir."
+  },
+  {
+    "id": 22,
+    "question": "4 yıllık bir lisans programını tamamlamak için azami süre kaç yıldır?",
+    "ground_truth": "Öğrenim süresi dört yıl olan lisans programlarını azami yedi yıl içinde tamamlamak zorunludur."
+  },
+  {
+    "id": 23,
+    "question": "Kayıt dondurma süresi bir defada ve toplamda en fazla ne kadar olabilir?",
+    "ground_truth": "Bir defada en çok iki yarıyıl, toplamda en çok dört yarıyıl kayıt dondurulabilir."
+  },
+  {
+    "id": 24,
+    "question": "DZ notu ne anlama gelir?",
+    "ground_truth": "DZ notu 'Devamsız' anlamına gelir; devam koşulunu sağlamayan öğrenciye verilir."
+  },
+  {
+    "id": 25,
+    "question": "Mazeret sınavı hangi sınavlar için yapılır?",
+    "ground_truth": "Haklı ve geçerli nedenlerle ara sınavlara giremeyen öğrencilere mazeret sınavı hakkı verilir."
+  },
+  {
+    "id": 26,
+    "question": "Tezli yüksek lisans programını tamamlama süresi normalde ve azami olarak kaç yarıyıldır?",
+    "ground_truth": "Normal süre dört yarıyıl olup, programı tamamlama süresi en fazla altı yarıyıldır."
+  },
+  {
+    "id": 27,
+    "question": "Doktora programına yüksek lisans derecesi ile başlayanlar için azami süre kaç yarıyıldır?",
+    "ground_truth": "Yüksek lisans derecesi ile kabul edilenler için en fazla on iki yarıyıldır."
+  },
+  {
+    "id": 28,
+    "question": "Doktora yeterlik sınavı kaç bölümden oluşur?",
+    "ground_truth": "Yazılı ve sözlü olarak iki bölüm halinde yapılır."
+  },
+  {
+    "id": 29,
+    "question": "Tezli yüksek lisans programı en az kaç ders ve kaç AKTS kredisinden oluşur?",
+    "ground_truth": "En az yedi adet kredili ders, seminer ve tez çalışmasından oluşur; toplam 120 AKTS kredisinden az olamaz."
+  },
+  {
+    "id": 30,
+    "question": "Tez savunma sınavı dinleyicilere açık mıdır?",
+    "ground_truth": "Evet, sınav öğretim elemanları, lisansüstü öğrenciler ve alanın uzmanlarından oluşan dinleyicilere açık olarak yapılır."
+  },
+  {
+    "id": 31,
+    "question": "Doktora programına başvuruda ALES puan şartı nedir?",
+    "ground_truth": "Yüksek lisans derecesi ile başvuranlar için ALES puanı en az 55 olmalıdır."
+  },
+  {
+    "id": 32,
+    "question": "Tezi başarısız bulunarak reddedilen yüksek lisans öğrencisine ne olur?",
+    "ground_truth": "Tezi başarısız bulunarak reddedilen öğrencinin Üniversite ile ilişiği kesilir."
+  },
+  {
+    "id": 33,
+    "question": "Danışmanlar öğrencilerle yılda en az kaç kez toplantı yapmalıdır?",
+    "ground_truth": "Yılda en az iki kez öğrencilerle toplantı yapar."
+  },
+  {
+    "id": 34,
+    "question": "Bir öğrenciye akademik danışman ne zaman atanır?",
+    "ground_truth": "Ders kayıtlarından en az 15 gün önce danışman ataması yapılır."
+  },
+  {
+    "id": 35,
+    "question": "Danışmanlık görüşmeleri çevrimiçi (online) yapılabilir mi?",
+    "ground_truth": "Evet, görüşmeler çevrimiçi platformlar aracılığıyla gerçekleştirilebilir ve kayıt altına alınır."
+  },
+  {
+    "id": 36,
+    "question": "Çift anadal (ÇAP) yapan öğrencilerin danışmanlığını kim yürütür?",
+    "ground_truth": "Çift anadal ve/veya yandal koordinatörleri tarafından yürütülür."
+  },
+  {
+    "id": 37,
+    "question": "Öğrenci ders seçimi yaparken kime danışmalıdır?",
+    "ground_truth": "Akademik ve Kariyer Danışmanına danışmalıdır; danışman ders seçiminde yardımcı olur ve onay verir."
+  },
+  {
+    "id": 38,
+    "question": "Yaz okulu Çukurova Üniversitesi'nde açılır mı?",
+    "ground_truth": "Üniversitede yaz öğretimi açılmaz. Ancak öğrenciler diğer üniversitelerden ders alabilir."
+  },
+  {
+    "id": 39,
+    "question": "Kopya çeken öğrenciye ne not verilir?",
+    "ground_truth": "Sınavda kopya çeken öğrenciye o sınav için 0 (sıfır) notu verilir."
+  },
+  {
+    "id": 40,
+    "question": "Tezsiz yüksek lisans programı en az kaç dersten oluşur?",
+    "ground_truth": "En az on adet ders ile dönem projesi dersinden oluşur."
+  }
+]

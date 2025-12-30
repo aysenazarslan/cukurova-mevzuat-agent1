@@ -1,0 +1,41 @@
+# --- 1. GÜVENLİK (KESİNLİKLE YÜKLENMEMELİ) ---
+.env
+.env.local
+.env.*
+*.key
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- 2. PYTHON VE DERLEME DOSYALARI ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+*.spec
+
+# --- 3. SANAL ORTAM (VIRTUAL ENV) ---
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# --- 4. VERİTABANI VE VEKTÖR DB ---
+# ChromaDB klasörü çok yer kaplar ve yereldir.
+data/chroma_db/
+*.sqlite3
+*.db
+
+# --- 5. İŞLETİM SİSTEMİ VE EDİTÖR ÇÖPLERİ ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# --- 6. DOSYA VE RAPORLAR (OPSİYONEL) ---
+# Eğer Excel sonuçlarını GitHub'a yüklemek İSTİYORSAN burayı yorum satırı olarak bırak.
+# Eğer yüklemek İSTEMİYORSAN başındaki # işaretini kaldır.
+# *.xlsx
+# *.csv
